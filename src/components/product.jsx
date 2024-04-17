@@ -30,7 +30,7 @@ const Product = () => {
         <div className='productsub'>
           {productsData.map((product, index) => (
             <div className='itemprod' key={product.id}>
-              <div className='itam'>
+              <div className=''>
                 <img src={image2} alt={product.name} />
                 <h2>{product.name}</h2>
                 <p>OMR ${product.price} <del>${product.price}</del></p>
