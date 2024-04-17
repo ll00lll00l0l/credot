@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import productsData from './products.json';
 import './styles/product.css';
 import image2 from '../assets/image/product1.png';
+import { CiCirclePlus } from "react-icons/ci";
+import { Link } from 'react-router-dom';
 
 const Product = () => {
   const [selectedProductId, setSelectedProductId] = useState(null);
@@ -28,11 +30,11 @@ const Product = () => {
         <div className='productsub'>
           {productsData.map((product, index) => (
             <div className='itemprod' key={product.id}>
-              <div>
+              <div className='itam'>
                 <img src={image2} alt={product.name} />
                 <h2>{product.name}</h2>
                 <p>OMR ${product.price} <del>${product.price}</del></p>
-                <button onClick={() => handleShowDescription(index)}>Show</button>
+                <Link  className='showbuttom' onClick={() => handleShowDescription(index)}> <CiCirclePlus /></Link>
               </div>
             </div>
           ))}
