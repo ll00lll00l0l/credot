@@ -1,0 +1,64 @@
+.brandbroder {
+    margin: 20px;
+    padding-bottom:5vw ;
+  }
+  
+  .brand-heading {
+font-size:clamp(26px,3vw,32px);
+font-weight: 600;
+line-height: 48.96px;
+text-align: left;
+
+  }
+  
+  .brand-images {
+    display: flex;
+    overflow-x: auto;
+    gap: 40px;
+    position: relative;
+    scroll-snap-type: x mandatory;
+  }
+  
+  /* .brand-images::-webkit-scrollbar {
+    width: 10px;
+    height: 10px; 
+  }
+  
+  .brand-images::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+  
+  .brand-images::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 5px; 
+  }
+  
+  /* Style for the scrollbar corner (if needed) */
+  .brand-images::-webkit-scrollbar-corner {
+    background: transparent; 
+  } */
+  
+  /* Hide scrollbar on Firefox */
+  .brand-images {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  /* Show scrollbar on webkit browsers */
+  .brand-images:hover::-webkit-scrollbar {
+    display: block;
+  }
+  
+  /* Hide scrollbar on webkit browsers */
+  .brand-images::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .brand-image {
+    flex: 0 0 auto;
+    width: clamp(80px,8.6vw,128px); 
+    height:clamp(80px,8.6vw,128px); 
+    scroll-snap-align: start;
+  }
+ 
+  

@@ -1,0 +1,37 @@
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap; 
+}
+
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-menu a:hover {
+    color: lightgray;
+}
+
+.navbar-menu a {
+    flex: 1; /* Distribute remaining space evenly */
+    text-align: center; /* Center the text */
+}
+.vline {
+    height: 49px; 
+    width: 1.5px;
+    background-color: #E8E8E8; 
+  }

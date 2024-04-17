@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "iPhone 13",
+        "description": "The iPhone 13 features a Super Retina XDR display, A15 Bionic chip, advanced dual-camera system, and longer battery life.",
+        "price": 799,
+                "imagePath":"/static/media/product1.png",
+
+        "storageOptions": [
+            {
+                "size": "128GB",
+                "price": 0
+            },
+            {
+                "size": "256GB",
+                "price": 100
+            }
+        ],
+        "color": "Midnight",
+        "additionalDescription": "The iPhone 13 is available in four stunning finishes. With Ceramic Shield, which has four times better drop performance."
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy S22",
+        "description": "The Samsung Galaxy S22 features a 6.1-inch Dynamic AMOLED display, Exynos 2200 processor, and a versatile triple-camera system.",
+        "price": 799,
+                "imagePath":"/static/media/product1.png",
+
+        "storageOptions": [
+            {
+                "size": "128GB",
+                "price": 0
+            },
+            {
+                "size": "256GB",
+                "price": 100
+            }
+        ],
+        "color": "Phantom Black",
+        "additionalDescription": "The Samsung Galaxy S22 delivers an iconic design and a smooth experience, with One UI 4.1."
+    },
+    {
+        "id": 3,
+        "name": "Google Pixel 6",
+        "description": "The Google Pixel 6 features a 6.4-inch Full HD+ OLED display, Google Tensor chip, and a dual-camera system with advanced AI.",
+        "price": 699,
+                "imagePath":"/static/media/product1.png",
+
+        "storageOptions": [
+            {
+                "size": "128GB",
+                "price": 0
+            },
+            {
+                "size": "256GB",
+                "price": 100
+            }
+        ],
+        "color": "Stormy Black",
+        "additionalDescription": "The Google Pixel 6 offers a pure Android experience and is designed to be the most helpful phone yet."
+    },
+    {
+        "id": 4,
+        "name": "OnePlus 10 Pro",
+        "description": "The OnePlus 10 Pro features a 6.7-inch Fluid AMOLED display, Snapdragon 8 Gen 2 processor, and a Hasselblad quad-camera system.",
+        "price": 899,
+                "imagePath":"/static/media/product1.png",
+
+        "storageOptions": [
+            {
+                "size": "256GB",
+                "price": 0
+            },
+            {
+                "size": "512GB",
+                "price": 200
+            }
+        ],
+        "color": "Emerald Forest",
+        "additionalDescription": "The OnePlus 10 Pro delivers a premium experience with fast performance and smooth OxygenOS."
+    },
+    {
+        "id": 5,
+        "name": "Xiaomi 12",
+        "description": "The Xiaomi 12 features a 6.28-inch AMOLED display, Snapdragon 8 Gen 1 processor, and a triple-camera system with 50MP main sensor.",
+        "price": 799,
+                "imagePath":"/static/media/product1.png",
+
+        "storageOptions": [
+            {
+                "size": "256GB",
+                "price": 0
+            },
+            {
+                "size": "512GB",
+                "price": 100
+            }
+        ],
+        "color": "Deep Sea Blue",
+        "additionalDescription": "The Xiaomi 12 offers a flagship experience with impressive camera capabilities and fast charging."
+    },
+    {
+        "id": 6,
+        "name": "Sony Xperia 1 III",
+        "description": "The Sony Xperia 1 III features a 6.5-inch 4K OLED display, Snapdragon 888 processor, and a triple-camera system with Zeiss optics.",
+        "price": 1299,
+                "imagePath":"/static/media/product1.png",
+
+        "storageOptions": [
+            {
+                "size": "256GB",
+                "price": 0
+            },
+            {
+                "size": "512GB",
+                "price": 200
+            }
+        ],
+        "color": "Frosted Purple",
+        "additionalDescription": "The Sony Xperia 1 III is designed for creators, with pro-level camera features and 360 Reality Audio."
+    }
+]

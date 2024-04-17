@@ -1,0 +1,30 @@
+:root {
+    --google-fonts-url: 'https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap';
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+
+}
+.bodymargin{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+@media (max-width: 768px) {
+    .bodymargin {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+.footersection {
+    display: block;
+    bottom: 0;
+    padding: 10px 0;
+  }
+  .hline {
+    margin-top: 30px;
+    display: block;
+    height: 1px; 
+    width:100%;
+    background-color: #E8E8E8; 
+  }

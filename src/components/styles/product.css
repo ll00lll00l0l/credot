@@ -1,0 +1,63 @@
+.productcontainer {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #ccc; 
+}
+.mainproduct{
+  display: flex;
+  padding: 10px 0px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+
+}
+.productsub {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+gap: 0;
+  flex-wrap: wrap;
+
+}
+
+.itemprod{
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  align-content:center;
+  justify-content: center;
+  gap: 16px;
+  border: 1px solid #ccc; 
+
+}
+.itemprod img{
+  width: 130.58px;
+height: 182.85px;
+top: 36.57px;
+left: 87.05px;
+gap: 0px;
+opacity: 0px;
+
+}
+.prodcartbutton {
+  margin-top: 10px;
+  min-width: 176px;
+  min-height: 52px;
+  padding: 0;
+  border: none;
+  background-color: #1AA5C3;
+  color: white;
+  cursor: pointer;
+  border-radius: 0;
+font-size: 14px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: 0.699999988079071px;
+text-align: center;
+
+}
+
+.prodcartbutton:hover {
+  background-color: #777777;
+}

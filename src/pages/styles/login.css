@@ -1,0 +1,84 @@
+
+ 
+
+.loginbody{
+    display: flex;
+    height:100vh;
+    margin-left:clamp(-150px,3vw,-10px) ; 
+    margin-right:clamp(-150px,3vw,-10px) ; 
+    background: cover;
+    background-color: #F4F4F4;
+    align-items: center;
+    justify-content: center;
+;}
+.loginbody div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.loginbody div h1{
+font-size: clamp(18px,2.5vw,26px);
+font-weight: 600;
+line-height: 52.33px;
+text-align: center;
+
+}
+.loginbody div p{
+color: #777777;
+font-size:clamp(10px,1vw,13px);
+font-weight: 400;
+line-height: 13px;
+text-align: center;
+padding-bottom: 20px;
+text-wrap: wrap;
+
+}
+/* .loginp{
+font-size: clamp(15px,2vw,26px);
+font-weight: 600;
+text-align: left; */
+
+
+.loginform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.logininput{
+    width: 30vw;
+    min-width: 250px;
+    height: 60px;
+    padding: 0 30px;
+    color: black;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    outline: none;
+}
+.logininput[type="email"]::placeholder,
+.logininput[type="password"]::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: black;
+    
+}
+.loginbutton {
+    margin-top: 10px;
+    min-width: 176px;
+    min-height: 52px;
+    padding: 0;
+    border: none;
+    background-color: #1AA5C3;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0;
+  }
+  
+  .loginbutton:hover {
+    background-color: #777777;
+  }
+  
