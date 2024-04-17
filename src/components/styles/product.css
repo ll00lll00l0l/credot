@@ -45,14 +45,6 @@ gap: 0px;
 opacity: 0px;
 
 }
-.itam  h1{
-font-size: clamp(10px,2vw,14px);
-font-weight: 500;
-line-height: 23px;
-text-align: left;
-text-wrap: wrap;
-
-}
 .prodcartbutton {
   margin-top: 10px;
   min-width: 176px;
