@@ -32,7 +32,7 @@ const Product = () => {
           {productsData.map((product, index) => (
             <div className='itemprod' key={product.id}>
               <div className=''>
-                <img src={image2} alt={product.name} width={125} height={250}/>
+                <img src={image2} alt={product.name} width={125} height={200}/>
                 <h2>{product.name}</h2>
                 <p>OMR ${product.price} <del>${product.price}</del></p>
                 <Link  className='showbuttom' onClick={() => handleShowDescription(index)}> <CiCirclePlus /></Link>
