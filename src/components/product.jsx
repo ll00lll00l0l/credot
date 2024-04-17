@@ -31,7 +31,7 @@ const Product = () => {
           {productsData.map((product, index) => (
             <div className='itemprod' key={product.id}>
               <div className=''>
-                <img src={image2} alt={product.name} />
+                <img src={image2} alt={product.name} width={200} height={300}/>
                 <h2>{product.name}</h2>
                 <p>OMR ${product.price} <del>${product.price}</del></p>
                 <Link  className='showbuttom' onClick={() => handleShowDescription(index)}> <CiCirclePlus /></Link>
