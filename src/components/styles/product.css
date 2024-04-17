@@ -36,15 +36,7 @@ gap: 0;
   border: 1px solid #ccc; 
 
 }
-.itemprod img{
-  width: clamp(80px,10vw,120px); 
-  height: clamp(100px,10vw,300px); 
-top: 36.57px;
-left: 87.05px;
-gap: 0px;
-opacity: 0px;
 
-}
 .prodcartbutton {
   margin-top: 10px;
   min-width: 176px;
