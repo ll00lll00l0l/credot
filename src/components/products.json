@@ -21,7 +21,7 @@
     },
     {
         "id": 2,
-        "name": "Samsung Galaxy S22",
+        "name": "Samsung G S22",
         "description": "The Samsung Galaxy S22 features a 6.1-inch Dynamic AMOLED display, Exynos 2200 processor, and a versatile triple-camera system.",
         "price": 799,
                 "imagePath":"/static/media/product1.png",
@@ -118,5 +118,90 @@
         ],
         "color": "Frosted Purple",
         "additionalDescription": "The Sony Xperia 1 III is designed for creators, with pro-level camera features and 360 Reality Audio."
+    },
+    {
+
+    
+    "id": 7,
+        "name": "Xiaomi 12",
+        "description": "The Xiaomi 12 features a 6.28-inch AMOLED display, Snapdragon 8 Gen 1 processor, and a triple-camera system with 50MP main sensor.",
+        "price": 799,
+                "imagePath":"/static/media/product1.png",
+
+        "storageOptions": [
+            {
+                "size": "256GB",
+                "price": 0
+            },
+            {
+                "size": "512GB",
+                "price": 100
+            }
+        ],
+        "color": "Deep Sea Blue",
+        "additionalDescription": "The Xiaomi 12 offers a flagship experience with impressive camera capabilities and fast charging."
+    },
+    {
+        "id": 8,
+        "name": "Sony Xperia 1 III",
+        "description": "The Sony Xperia 1 III features a 6.5-inch 4K OLED display, Snapdragon 888 processor, and a triple-camera system with Zeiss optics.",
+        "price": 1299,
+                "imagePath":"/static/media/product1.png",
+
+        "storageOptions": [
+            {
+                "size": "256GB",
+                "price": 0
+            },
+            {
+                "size": "512GB",
+                "price": 200
+            }
+        ],
+        "color": "Frosted Purple",
+        "additionalDescription": "The Sony Xperia 1 III is designed for creators, with pro-level camera features and 360 Reality Audio."
     }
+    ,
+    {
+        "id": 9,
+        "name": "Sony Xperia 1 III",
+        "description": "The Sony Xperia 1 III features a 6.5-inch 4K OLED display, Snapdragon 888 processor, and a triple-camera system with Zeiss optics.",
+        "price": 1299,
+                "imagePath":"/static/media/product1.png",
+
+        "storageOptions": [
+            {
+                "size": "256GB",
+                "price": 0
+            },
+            {
+                "size": "512GB",
+                "price": 200
+            }
+        ],
+        "color": "Frosted Purple",
+        "additionalDescription": "The Sony Xperia 1 III is designed for creators, with pro-level camera features and 360 Reality Audio."
+    }
+    ,
+    {
+        "id": 10,
+        "name": "Sony Xperia 1 III",
+        "description": "The Sony Xperia 1 III features a 6.5-inch 4K OLED display, Snapdragon 888 processor, and a triple-camera system with Zeiss optics.",
+        "price": 1299,
+                "imagePath":"/static/media/product1.png",
+
+        "storageOptions": [
+            {
+                "size": "256GB",
+                "price": 0
+            },
+            {
+                "size": "512GB",
+                "price": 200
+            }
+        ],
+        "color": "Frosted Purple",
+        "additionalDescription": "The Sony Xperia 1 III is designed for creators, with pro-level camera features and 360 Reality Audio."
+    }
+
 ]
