@@ -39,7 +39,7 @@ function Footer() {
       </div>
     </footer>
     <span className='hline'/>
-    <h6 className='footerright'>Arab Deals  © 2023. All Rights Reserved</h6>
+    <h6 className='footerright'>Created by Nabeel hassan</h6>
     </div>
     </>
   );
