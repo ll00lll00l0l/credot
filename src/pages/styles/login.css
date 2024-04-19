@@ -33,6 +33,10 @@ padding-bottom: 20px;
 text-wrap: wrap;
 
 }
+.loginbody div p a{
+    color: #1AA5C3;
+    text-decoration:none ;
+}
 /* .loginp{
 font-size: clamp(15px,2vw,26px);
 font-weight: 600;
@@ -57,6 +61,7 @@ text-align: left; */
     outline: none;
 }
 .logininput[type="email"]::placeholder,
+.logininput[type="text"]::placeholder,
 .logininput[type="password"]::placeholder {
     font-size: 14px;
     font-weight: 400;

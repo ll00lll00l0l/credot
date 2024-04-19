@@ -1,0 +1,20 @@
+
+.cartban{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 8.125vw;
+
+}
+.cartban h1{
+font-size: 24px;
+font-weight: 600;
+line-height: 52.33px;
+letter-spacing: 0.5571600198745728px;
+text-align: center;
+color: #222529;
+;
+
+}

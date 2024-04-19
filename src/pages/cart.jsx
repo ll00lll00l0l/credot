@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import Cartbanner from '../components/cartbanner'
 const Cart = () => {
   const [cartItems, setCartItems] = useState([]);
 
@@ -11,6 +11,8 @@ const Cart = () => {
 
   return (
     <>
+    <Cartbanner/>
+    <div className="bodymargin">
       <h1>Cart</h1>
       <table>
         <thead>
@@ -33,7 +35,7 @@ const Cart = () => {
         </tbody>
       </table>
       <h2>Total: ${cartItems.reduce((acc, item) => acc + item.price, 0)}</h2>
-      
+      </div>
     </>
   );
 };
