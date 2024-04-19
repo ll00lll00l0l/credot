@@ -19,11 +19,11 @@ const Product = () => {
 
   return (
     <>
-      <h1>Products</h1>
-      <div className="productcontainer">
+      <h1 id="product">Products</h1>
+      <div   className="productcontainer">
         <div>
           {selectedProductId !== null && (
-            <div id="product" className="mainproduct">
+            <div className="mainproduct">
               <img src={productsData[selectedProductId].imagePath} alt={productsData[selectedProductId].name} />
               <h2>{productsData[selectedProductId].name}</h2>
               <p>

@@ -22,7 +22,7 @@ function Login() {
             <p className="login-text">
               Not registered? <Link  to=' 'onClick={toggleForm}>Create an account</Link>
             </p>
-            <form className="loginform" action="loginuser" method="POST">
+            <form className="loginform" action="#/home" method="get">
               <input type="email" placeholder="Email ID" name="u1" className="logininput" />
               <input type="password" placeholder="Password" name="p1" className="logininput" />
               <button type="submit" className="loginbutton">LOGIN</button>
