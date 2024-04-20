@@ -5,7 +5,6 @@ import { IoIosAddCircle } from "react-icons/io";
 import { HashLink as Link } from "react-router-hash-link";
 
 const Product = () => {
-  const location = useLocation();
   const [selectedProductId, setSelectedProductId] = useState(0);
   const [cartItems, setCartItems] = useState([]);
 
