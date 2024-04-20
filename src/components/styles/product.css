@@ -25,7 +25,7 @@
 .productsub {
   display: flex;
   flex-shrink: 0%;
-  gap: 20px;
+  gap: 2vw;
   justify-content: space-evenly;
 
   flex-wrap: wrap;
@@ -34,10 +34,11 @@
 
 .itemprod{
   display: flex;
+  flex-shrink: 0%;
+  min-width: 200px;
   padding: 1vw;
   width: clamp(100px,30%,200px);
   justify-content: space-evenly;
-  border: 1px solid #ccc; 
 }
 
 .prodcartbutton {
@@ -61,21 +62,39 @@ text-align: center;
 .prodcartbutton:hover {
   background-color: #777777;
 }
-.iteamstyles{
+.iteamstyles {
   display: flex;
   flex-direction:column ;
   align-items: center;
 }
+.iteamstyles div{
+  align-items: flex-end;
+  flex-direction:row ;
+
+  justify-content: space-between;
+}
 .iteamstyles h2{
   text-wrap: wrap;
-  font-size: clamp(10px,3vw,20px);
+  font-size: clamp(10px,2.4vw,18px);
+  font-weight: 00;
+line-height: 15px;
 }
-del{
-font-size: 14px;
+.productprice {
+  font-size: clamp(8px,1.4vw,14px);
 font-weight: 300;
 line-height: 15px;
 letter-spacing: -0.10000000149011612px;
 text-align: left;
 color: #777777;
-
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@600&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.productprice   span {
+  color: #000;
+  padding: .2rem;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-weight: 800;
+    letter-spacing: -0.10000000149011612px;
+  text-align: left;
+  
 }
