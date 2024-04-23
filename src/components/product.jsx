@@ -37,7 +37,7 @@ const Product = () => {
         </div>
         <div className="productsub" >
           {productsData.map((product, index) => (
-            <div className="itemprod" key={product.id} style={{ border: selectedProductId === index ? " 2px solid#1AA5C3" : " 1px solid#B9B9B9" }} >
+            <div className="itemprod" key={product.id} style={{ border: selectedProductId === index ? " 1px solid#1AA5C3" : " 1px solid#B9B9B9" }} >
               <div><SVG  caseValue='case8' /></div>       
               <div className="iteamstyles">
                 <span><img src={product.imagePath} alt={product.name} width={100} height={130} /></span>
