@@ -86,7 +86,7 @@ text-align: left;
 }
 .iteamstyles h2{
   text-wrap: wrap;
-  font-size: clamp(10px,2.4vw,18px);
+  font-size: clamp(10px,1.4vw,14px);
   font-weight: 00;
 line-height: 15px;
 }
@@ -94,9 +94,9 @@ line-height: 15px;
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: .2rem;
-  font-size: clamp(8px,1.4vw,14px);
-font-weight: 300;
+  gap: .8rem;
+  font-size: clamp(8px,1vw,14px);
+font-weight: 200;
 line-height: 15px;
 letter-spacing: -0.10000000149011612px;
 text-align: left;
@@ -105,7 +105,7 @@ color: #777777;
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@600&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 .productprice span {
   color: #000;
-  padding: .2rem;
+  justify-content: space-around;
   font-family: Plus Jakarta Sans;
   font-size: 16px;
   font-weight: 800;
