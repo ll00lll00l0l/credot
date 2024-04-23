@@ -9,7 +9,6 @@ export default function home() {
       <Banner/>
       <div className='bodymargin'>
       <Product/>
-
         <Brand/>
         </div>
       

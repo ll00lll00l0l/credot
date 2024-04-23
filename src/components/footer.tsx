@@ -17,8 +17,8 @@ function Footer() {
         <h4>CONNECTED WITH US</h4>
         <div>
         <Link to="/login"><SVG  caseValue='case3' /></Link>
-        <Link to="/login"><SVG  caseValue='case1' /></Link>
-        <Link to="/login"><SVG  caseValue='case2' /></Link>
+        <Link to="/login"><SVG  caseValue='case6' /></Link>
+        <Link to="/login"><SVG  caseValue='case7' /></Link>
         <Link to="/login"><SVG  caseValue='case3' /></Link>
         </div>
       </div>

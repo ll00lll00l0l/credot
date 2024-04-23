@@ -8,6 +8,7 @@
   border-radius: 50%;
 }
 
+
 .usersvg:hover,
 .cartsvg:hover,
 .facebooksvg:hover {
@@ -27,8 +28,6 @@
 .phonesvg {
   transition: border-color 0.5s ease; 
 }
-
-
 .phonesvg{
       width: 20px;
     height: 20px;

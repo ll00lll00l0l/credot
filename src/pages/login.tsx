@@ -17,10 +17,10 @@ function Login() {
       <div>
         <h1>Login/Register to your account</h1>
         {showRegisterForm ? (
-          <div>
+          <div >
             
             <p className="login-text">
-              Not registered? <Link  to=' 'onClick={toggleForm}>Create an account</Link>
+              Not registered? <Link  to='' onClick={toggleForm}>Create an account</Link>
             </p>
             <form className="loginform" action="#/home" method="get">
               <input type="email" placeholder="Email ID" name="u1" className="logininput" />
